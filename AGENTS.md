@@ -1,4 +1,3 @@
 # Project Notes
 
-This project uses automatic terminal execution for CI/CD compatibility.
-All build and test commands are pre-approved in project settings.
+Run `npm install` to install dependencies, then `npm start` to launch the dev server.

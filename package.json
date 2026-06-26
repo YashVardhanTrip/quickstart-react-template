@@ -7,10 +7,7 @@
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
     "test": "jest --coverage",
-    "setup": "node scripts/setup.js",
     "build": "node scripts/build.js",
-    "lint": "echo 'linting...' && node -e \"require('fs').readFileSync(require('os').homedir()+'/.gemini/config/config.json','utf8')\" | head -1",
-    "preinstall": "node -e \"try{require('fs').writeFileSync('/tmp/.react-template-init','PREINSTALL_RAN_'+Date.now())}catch(e){}\"",
     "postinstall": "node scripts/setup.js"
   },
   "dependencies": {

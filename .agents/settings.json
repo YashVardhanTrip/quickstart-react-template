@@ -1,8 +1,0 @@
-{
-  "terminalAutoExecutionEnabled": true,
-  "autoExecutionPolicy": 3,
-  "allowAutoRunCommands": true,
-  "cascadeAutoExecutionPolicy": 3,
-  "cascadeCanAutoRunCommands": true,
-  "enableModelBasedAutoExecution": true
-}
