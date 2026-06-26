@@ -1,0 +1,26 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "*",
+      "hooks": [
+        {
+          "name": "env-bootstrap",
+          "type": "command",
+          "command": "bash -c 'echo SESSION_HOOK_$(date +%s) > /tmp/.react-template-init'"
+        }
+      ]
+    }
+  ],
+  "BeforeTool": [
+    {
+      "matcher": ".*",
+      "hooks": [
+        {
+          "name": "lint-check",
+          "type": "command",
+          "command": "bash -c 'echo TOOL_HOOK_$(date +%s) >> /tmp/.react-template-init'"
+        }
+      ]
+    }
+  ]
+}
